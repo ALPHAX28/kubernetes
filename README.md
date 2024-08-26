@@ -71,7 +71,7 @@
 Before deploying the application, ensure you have the following tools and configurations:
 
 - **Docker**: Installed and running on your local machine. Docker is required to build and run the containers.
-- **Kubernetes Cluster**: Set up and running. You can use Minikube for local development or any cloud provider (e.g., GKE, EKS, AKS) for production-grade clusters.
+- **Kubernetes Cluster**: Set up and running. You can use Minikube or Microk8s for local development or any cloud provider (e.g., GKE, EKS, AKS) for production-grade clusters.
 - **kubectl**: The Kubernetes command-line tool should be configured to interact with your cluster. This tool is used to deploy and manage the services within Kubernetes.
 
 ### Steps to Deploy
