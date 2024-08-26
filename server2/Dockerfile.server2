@@ -1,0 +1,5 @@
+FROM python:3.8-slim
+WORKDIR /app
+COPY server2.py .
+EXPOSE 5001
+CMD ["python", "server2.py"]
