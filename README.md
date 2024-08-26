@@ -163,6 +163,15 @@ Ensure all the server pods are running by checking the pod status:
 kubectl logs <pod-name>
 ```
 
+#### The output of the logfile will be as follows :-
+
+```bash
+Hello from server1-7b698c776d-z2x7t
+Hello from server2-887b99986-467b7
+Hello from server1-7b698c776d-z2x7t
+Hello from server2-887b99986-467b7
+```
+
 Check the logs by providing the pod name
 
 ## Future Enhancements
